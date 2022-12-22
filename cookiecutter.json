@@ -1,10 +1,9 @@
 {   
     "project_title"        : "Your Project Name",
     "project_slug"         :"{{ cookiecutter.project_title.lower().strip().replace(' ', '_').replace('-', '_') }}",
-    "project_description"  :"Your Project Description",
-    "project_author_name"  :"Your name",
-    "project_author_email" :"Your email",
+    "project_description"  :"A short description of the project.",
+    "project_author_name"  :"Your name (or your organization/company/team)",
     "open_source_license"  : ["MIT", "BSD-3-Clause", "No license file"],
     "project_packages"     : ["All","Minimal"],
-    "python_version"       : ["3.7", "3.8", "3.9"]
+    "python_interpreter"   : ["python3", "python"]
 }

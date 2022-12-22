@@ -1,0 +1,15 @@
+# conda env create --file environment.yml
+name: {{ cookiecutter.project_slug }}
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  {% if cookiecutter.python_interpreter == "python" %}
+  - python=2.7
+  {% else %}
+  - python=3.9
+  {% endif %}
+  - pip:
+    

@@ -3,9 +3,8 @@
 {{ cookiecutter.project_description }}
 
 ## Project Features
-- Python {{ cookiecutter.python_version }}
-- Git integration
-- Python preset functions
+- Python: {% if  cookiecutter.python_interpreter == "python3" %} 3.7+ {% else %} 2.7 {%endif%}
+
 
 ## Requirements
 - Anaconda >= 4.x

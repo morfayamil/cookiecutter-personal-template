@@ -47,4 +47,4 @@ cookiecutter https://github.com/morfayamil --checkout cookiecutter-personal-temp
         └── README.md          <- The top-level README for developers using this project.
 
 ---
-Proyecto creado con fines demostrativos para el curso "[Configuración avanzada...]()" de [Platzi](https://platzi.com/) por [@jvelezmagic](https://twitter.com/jvelezmagic).
+Proyecto creado con fines demostrativos para el curso de Configuración de Entrono de Trabajo
